@@ -1,0 +1,2 @@
+#!/bin/sh
+killall /opt/google/drive/drive &> /dev/null

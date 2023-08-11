@@ -1,0 +1,3 @@
+#!/bin/sh
+export LD_PRELOAD=/opt/google/drive/libfuse.so
+exec /opt/google/drive/drive $1 &> /dev/null &

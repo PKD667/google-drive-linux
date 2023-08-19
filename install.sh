@@ -1,3 +1,3 @@
-cp -r opt /
-cp mount-drive umount-drive /bin
-chmod +x /bin/mount-drive /bin/umount-drive
+cp -r opt $DESTDIR/
+cp mount-drive umount-drive $DESTDIR/bin
+chmod +x $DESTDIR/bin/mount-drive $DESTDIR/bin/umount-drive
